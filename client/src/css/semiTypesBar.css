@@ -1,0 +1,29 @@
+.semi-types {
+    list-style: none;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .semi-types li {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .semi-types li::after {
+    content: "→";
+    color: #000000;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+
+  .semi-types li:hover {
+    border-bottom-color: #002853;
+  }

@@ -1,0 +1,82 @@
+p{
+    margin-bottom: 0;
+}
+.link-cat{
+  color: black;
+  text-decoration: none;
+}
+.link-cat:hover{
+    color: black;
+    text-decoration: underline;
+  }
+.nav{
+    position: relative;
+    background-color: #9DB8E0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 1px -100px 1000px black;
+    height: 170px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.top-nav {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+}
+
+.logo{
+    max-height: 100px;
+}
+.phone-num:link{
+    color: black;
+    text-decoration: none;
+}
+.search{
+    width: 150px;
+    border-radius: 999px;
+    background: transparent;
+    text-indent: 10px;
+    border: 1px solid #000000;
+}
+.search:focus{
+    border-radius: 999px;
+    background: transparent;
+    text-indent: 10px;
+    border: 1px solid #000000;
+}
+.basket {
+    border-radius: 999px;
+    background: transparent;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.acc-logo{
+    max-height: 30px;
+}
+.bottom-nav{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 10%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

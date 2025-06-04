@@ -1,0 +1,37 @@
+.cards-container{
+    display: grid;
+    grid-template-rows: auto 1fr 1fr auto;
+    gap: 8px;
+    width: 300px;
+    height: 350px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+}
+.product-photo{
+    max-width: 80%;
+    max-height: 180px;
+    display: block;
+    margin: auto;
+}
+.buy-button{
+    float: right;
+    background-color: #6A87C8;
+    border: none;
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+}
+.device-name{
+    font-size: large;
+}
+.device-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 500;
+}

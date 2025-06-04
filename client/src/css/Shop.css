@@ -1,0 +1,90 @@
+.slider {
+    margin: 50px auto;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    background: lightgray;
+    padding: 0;
+  }
+  
+  .slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .prev { left: 10px; }
+  .next { right: 10px; }
+
+  .header1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .cat-propose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .proposes{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "a a b c"
+    "a a d e"
+    ;
+    margin: 50px 20%;
+  }
+  .propose1{
+    grid-area: a;
+    height: 500px;
+    background-color: cyan;
+    border-radius: 25px;
+  }
+  .propose2{
+    grid-area: b;
+    background-color: cyan;
+    border-radius: 25px;
+  }
+  .propose3{
+    grid-area: c;
+    background-color: cyan;
+    border-radius: 25px;
+  }
+  .propose4{
+    grid-area: d;
+    background-color: cyan;
+    border-radius: 25px;
+  }
+  .propose5{
+    grid-area: e;
+    background-color: cyan;
+    border-radius: 25px;
+  }
+  .tab-button{
+    background: transparent;
+    border: none;
+  }
+  .tab-button.active {
+    text-decoration: underline;
+  }

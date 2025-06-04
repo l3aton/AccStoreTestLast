@@ -1,0 +1,8 @@
+.buy-button{
+    float: right;
+    background-color: #6A87C8;
+    border: none;
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+}
